@@ -1,0 +1,18 @@
+{
+  "name": "oh-shit-app",
+  "version": "1.0.0",
+  "description": "interacts with oh-shit-api to map victims in a disaster event",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nn-org/oh-shit-app.git"
+  },
+  "author": "storycoding",
+  "license": "NPOSL-3.0",
+  "bugs": {
+    "url": "https://github.com/nn-org/oh-shit-app/issues"
+  },
+  "homepage": "https://github.com/nn-org/oh-shit-app#readme"
+}
