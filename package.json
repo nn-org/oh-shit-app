@@ -2,8 +2,12 @@
   "name": "oh-shit-app",
   "version": "1.0.0",
   "description": "interacts with oh-shit-api to map victims in a disaster event",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -14,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/nn-org/oh-shit-app/issues"
   },
-  "homepage": "https://github.com/nn-org/oh-shit-app#readme"
+  "homepage": "https://github.com/nn-org/oh-shit-app#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
 }
